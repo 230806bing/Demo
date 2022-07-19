@@ -23,8 +23,11 @@
         android:theme="@style/Theme.MapDemo"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".mvpdemo.activity.LoginActivity"
-            android:exported="true" >
+            android:name=".kotlinrecyclerviewdemo.KotlinRecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dragdemo.DragActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,12 +35,14 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".mvpdemo.activity.LoginActivity"
+            android:exported="true" />
+        <activity
             android:name=".mvcdemo.controller.MVCActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".themedemo.ThemeActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".ontouchdemo.TouchActivity"
             android:exported="true" />

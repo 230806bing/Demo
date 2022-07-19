@@ -46,6 +46,9 @@
         <entry key="..\:/Users/22843/AndroidStudioProjects/MapDemo/app/src/main/res/layout/custom_info_contents.xml" value="0.1" />
         <entry key="..\:/Users/22843/AndroidStudioProjects/MapDemo/app/src/main/res/layout/custom_info_window.xml" value="0.4258720930232558" />
         <entry key="..\:/Users/22843/AndroidStudioProjects/MapDemo/app/src/main/res/layout/item_for_custom_spinner.xml" value="0.14505893019038985" />
+        <entry key="app/src/main/res/layout/activity_drag.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_kotlin_recycler.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/drag_delete_layout.xml" value="0.33177083333333335" />
       </map>
     </option>
   </component>
