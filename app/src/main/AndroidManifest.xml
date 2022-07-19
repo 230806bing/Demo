@@ -23,6 +23,9 @@
         android:theme="@style/Theme.MapDemo"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".pushActivity"
+            android:exported="false" />
+        <activity
             android:name=".kotlinrecyclerviewdemo.KotlinRecyclerViewActivity"
             android:exported="false" />
         <activity
