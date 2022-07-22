@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="303dp"
+    android:layout_height="80dp"
+    android:background="#F6F6F8">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_portrait"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_push_portrait"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="赢取奖励快来，还是要提醒大家提醒还是要提醒大家提醒还是要提"
+        android:maxLines="2"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:textColor="#63636D"
+        android:ellipsize="end"
+        android:textSize="14dp"
+        android:background="@drawable/ic_push_item_background"
+        app:layout_constraintTop_toTopOf="@id/iv_portrait"
+        app:layout_constraintBottom_toBottomOf="@id/iv_portrait"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

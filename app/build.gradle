@@ -1,5 +1,7 @@
 plugins {
     id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -24,6 +26,10 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dataBinding {
+        enabled = true
     }
 
     sourceSets {
@@ -52,6 +58,8 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.0.1'
 
     implementation 'com.google.code.gson:gson:2.9.0'
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 
 
 

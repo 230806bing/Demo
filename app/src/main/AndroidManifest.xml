@@ -23,20 +23,34 @@
         android:theme="@style/Theme.MapDemo"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".pushActivity"
+            android:name=".viewdemo.AnimationActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".viewdemo.ViewActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".pushdemo.JumpActivity"
             android:exported="false" />
+        <activity
+            android:name=".recyclerviewviewtypedemo.ViewTypeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".pushdemo.PushActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter></activity>
         <activity
             android:name=".kotlinrecyclerviewdemo.KotlinRecyclerViewActivity"
             android:exported="false" />
         <activity
             android:name=".dragdemo.DragActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".mvpdemo.activity.LoginActivity"
             android:exported="true" />

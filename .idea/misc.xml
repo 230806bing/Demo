@@ -46,9 +46,23 @@
         <entry key="..\:/Users/22843/AndroidStudioProjects/MapDemo/app/src/main/res/layout/custom_info_contents.xml" value="0.1" />
         <entry key="..\:/Users/22843/AndroidStudioProjects/MapDemo/app/src/main/res/layout/custom_info_window.xml" value="0.4258720930232558" />
         <entry key="..\:/Users/22843/AndroidStudioProjects/MapDemo/app/src/main/res/layout/item_for_custom_spinner.xml" value="0.14505893019038985" />
+        <entry key="app/src/main/res/drawable/ic_push_item_background.xml" value="0.333" />
+        <entry key="app/src/main/res/layout/activity_animation.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_drag.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_jump.xml" value="0.30364583333333334" />
         <entry key="app/src/main/res/layout/activity_kotlin_recycler.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_push.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/activity_touch.xml" value="0.15450861195542046" />
+        <entry key="app/src/main/res/layout/activity_view.xml" value="0.21240942028985507" />
+        <entry key="app/src/main/res/layout/activity_view_type.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/drag_delete_layout.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/item_default.xml" value="0.10833333333333334" />
+        <entry key="app/src/main/res/layout/item_has_title.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/item_no_title.xml" value="0.31666666666666665" />
+        <entry key="app/src/main/res/layout/item_push_long_text.xml" value="0.6561461794019934" />
+        <entry key="app/src/main/res/layout/item_push_only_text.xml" value="0.738255033557047" />
+        <entry key="app/src/main/res/layout/item_push_pic_text.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_push_vedio_text.xml" value="0.67" />
       </map>
     </option>
   </component>
