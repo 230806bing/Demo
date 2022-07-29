@@ -23,13 +23,23 @@
         android:theme="@style/Theme.MapDemo"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".viewdemo.AnimationActivity"
+            android:name=".eventbusdemo.AnoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".eventbusdemo.EventBusDemoActivity"
             android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
+            android:name=".viewdemo.AnimationActivity"
+            android:exported="true" />
+        <activity
             android:name=".viewdemo.ViewActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".pushdemo.JumpActivity"
             android:exported="false" />
@@ -39,12 +49,7 @@
         <activity
             android:name=".pushdemo.PushActivity"
             android:exported="true">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter></activity>
+        </activity>
         <activity
             android:name=".kotlinrecyclerviewdemo.KotlinRecyclerViewActivity"
             android:exported="false" />
