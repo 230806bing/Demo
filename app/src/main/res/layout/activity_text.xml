@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".autotextdemo.TextActivity">
+
+    <ImageView
+        android:id="@+id/iv_feed_push_item"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/ic_push_item_background"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_feed_push_video_pic"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_push_portrait"
+        app:layout_constraintBottom_toBottomOf="@id/iv_feed_push_item"
+        app:layout_constraintLeft_toLeftOf="@id/iv_feed_push_item"
+        app:layout_constraintTop_toTopOf="@id/iv_feed_push_item" />
+
+    <com.example.demo.autotextdemo.AutoWidthTextView
+        android:id="@+id/tv_feed_push_video_text_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="#63636D"
+        android:textSize="14sp"
+        android:text="[长文]dhjkashfjdhfjdhfkdhjafhfhihirglrgrghj"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_feed_push_item"
+        app:layout_constraintEnd_toEndOf="@+id/iv_feed_push_item"
+        app:layout_constraintStart_toEndOf="@+id/iv_feed_push_video_pic"
+        app:layout_constraintTop_toTopOf="@+id/iv_feed_push_item" >
+    </com.example.demo.autotextdemo.AutoWidthTextView>
+
+    <ImageView
+        android:id="@+id/iv_feed_push_item1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/ic_push_item_background"
+        app:layout_constraintTop_toBottomOf="@id/iv_feed_push_item"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_feed_push_video_pic1"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_push_portrait"
+        app:layout_constraintBottom_toBottomOf="@id/iv_feed_push_item1"
+        app:layout_constraintLeft_toLeftOf="@id/iv_feed_push_item1"
+        app:layout_constraintTop_toTopOf="@id/iv_feed_push_item1" />
+
+    <com.example.demo.autotextdemo.AutoWidthTextView
+        android:id="@+id/tv_feed_push_video_text_content1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="#63636D"
+        android:textSize="14sp"
+        android:text="[长文]dhjkashfjdhfjdhfkdhjafhfhihirglrgrghjdsajflkdshjfklsjEfsadfdfsdfsfhsdjfhfjksdhfjkdshfjksjhfjksh"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_feed_push_item1"
+        app:layout_constraintEnd_toEndOf="@+id/iv_feed_push_item"
+        app:layout_constraintStart_toEndOf="@+id/iv_feed_push_video_pic1"
+        app:layout_constraintTop_toTopOf="@+id/iv_feed_push_item1" >
+    </com.example.demo.autotextdemo.AutoWidthTextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
