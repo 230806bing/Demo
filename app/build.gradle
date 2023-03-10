@@ -63,6 +63,9 @@ dependencies {
 
     implementation 'org.greenrobot:eventbus:3.3.1'
 
+    implementation 'com.github.Vincent7Wong:EasyNavigation:2.0.5'
+
+
 
 
 
