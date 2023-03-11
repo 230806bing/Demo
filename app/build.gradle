@@ -65,6 +65,9 @@ dependencies {
 
     implementation 'com.github.Vincent7Wong:EasyNavigation:2.0.5'
 
+    implementation 'com.daimajia.androidanimations:library:2.4@aar'
+
+
 
 
 

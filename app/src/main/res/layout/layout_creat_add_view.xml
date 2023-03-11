@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ll_create_lyrics"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/sh_create_item_bg"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintEnd_toStartOf="@id/ll_create_hum"
+            app:layout_constraintTop_toTopOf="@id/ll_create_hum">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_create_lyrics" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="歌词记录"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_create_hum"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/sh_create_item_bg"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_create_hum" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="哼唱记录"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_create_musical_instrument"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/sh_create_item_bg"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintStart_toEndOf="@id/ll_create_hum"
+            app:layout_constraintTop_toTopOf="@id/ll_create_hum">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_create_musical_instrument" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="乐器记录"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_create_accompaniment"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/sh_create_item_bg"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintEnd_toStartOf="@id/ll_create_upload"
+            app:layout_constraintTop_toTopOf="@id/ll_create_upload">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_create_accompaniment" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="伴奏作词"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_create_upload"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/sh_create_item_bg"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ll_create_hum">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_create_upload" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="上传音乐"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_create_create"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/sh_create_item_bg"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintStart_toEndOf="@id/ll_create_upload"
+            app:layout_constraintTop_toTopOf="@id/ll_create_upload">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_create_create" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="乐器记录"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ImageView
+        android:id="@+id/cancel_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_nav_bar_create" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
